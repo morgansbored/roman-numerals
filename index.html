@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Roman Numeral Generator</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body onload="startOver()">
+        <div class="wrapper">
+            <div class="content">
+                <h1>Roman Numeral Generator</h1>
+                <p>Enter a number below (up to 3999) to display its equivalent in roman numerals.</p>
+                <div class="container">
+                  <div class="input-area">
+                    <p>
+                      <label for="input-int">Enter here:  </label>
+                      <input type="text" id="input" placeholder="Enter a positive integer">
+                      <button class="custom" onclick="showResults()">Show me the numeral</button>
+                      <button class="custom" onclick="startOver()">Start over</button>
+                    </p>
+                  </div>
+                  <div class="output-area">
+                    <p class="output">
+                    </p>
+                  </div>  
+                </div>
+            </div>
+        </div>
+        <script src="js/numerals.js"></script>
+    </body>
+</html>
